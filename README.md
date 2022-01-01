@@ -2,9 +2,11 @@
 
 # Introduction to Machine Learning with Python
 
-This repository holds the code for the forthcoming book "Introduction to Machine
+This repository holds the code for the book "Introduction to Machine
 Learning with Python" by [Andreas Mueller](http://amueller.io) and [Sarah Guido](https://twitter.com/sarah_guido).
 You can find details about the book on the [O'Reilly website](http://shop.oreilly.com/product/0636920030515.do).
+
+We are using the book for our Machine Learning study group. You can find all the sessions [recording here](https://www.youtube.com/watch?v=pBs_z-nPoW0&list=PLr3-oFRsHRaYwhdh0M2faizP2o82yWVQx)  
 
 The books requires the current stable version of scikit-learn, that is
 0.20.0.  Most of the book can also be used with previous versions of
@@ -17,7 +19,6 @@ This repository provides the notebooks from which the book is created, together
 with the ``mglearn`` library of helper functions to create figures and
 datasets.
 
-For the curious ones, the cover depicts a [hellbender](https://en.wikipedia.org/wiki/Hellbender).
 
 All datasets are included in the repository, with the exception of the aclImdb dataset, which you can download from
 the page of [Andrew Maas](http://ai.stanford.edu/~amaas/data/sentiment/). See the book for details.
@@ -73,11 +74,5 @@ For the chapter on text processing you also need to install ``nltk`` and ``spacy
 For the text processing chapter, you need to download the English language model for spacy using
 
     python -m spacy download en
-
-## Submitting Errata
-
-If you have errata for the (e-)book, please submit them via the [O'Reilly Website](http://www.oreilly.com/catalog/errata.csp?isbn=0636920030515).
-You can submit fixes to the code as pull-requests here, but I'd appreciate it if you would also submit them there, as this repository doesn't hold the
-"master notebooks".
 
 ![cover](cover.jpg)
